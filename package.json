@@ -1,0 +1,29 @@
+{
+  "name": "desafio-sharenergy-api",
+  "version": "1.0.0",
+  "description": "aplicação desenvolvida como a solução do desafio da Sharenergy",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Michael Wellington Lopes",
+    "email": "michael23.wellington@gmail.com",
+    "github": "https://github.com/michaelwell23"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.2",
+    "sucrase": "^3.29.0"
+  }
+}
